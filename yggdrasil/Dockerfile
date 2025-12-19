@@ -1,11 +1,11 @@
 ARG BUILD_FROM
-FROM $BUILD_FROM
+#FROM $BUILD_FROM
 
-MAINTAINER That Vasket <thatv+codeforge@dismail.de>
+LABEL That Vasket <thatv+codeforge@dismail.de>
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
-ENV LANG C.UTF-8
+ENV LANG=C.UTF-8
 
 #Installl yggdrasil 
 RUN apk update && apk add --no-cache bash yggdrasil && rm -rf /var/cache/apk/*
