@@ -11,5 +11,5 @@
   "host_dbus": true,
   "full_access": true,
   "privileged": ["NET_ADMIN"],
-  "devices": "/dev/net/tun"
+  "devices": ["/dev/net/tun"]
 }
