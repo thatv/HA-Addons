@@ -1,5 +1,5 @@
 # Yggdrasil Network
-An Addon for running A Yggdrasil node for Homeassistant. It provides a persistant IP and local discovery. 
+An Addon for running A Yggdrasil node on Homeassistant. It provides a persistant IP and local discovery. 
 
 For more info  visit https://yggdrasil-network.github.io/
 
@@ -7,4 +7,4 @@ No configuration options for distant peers for now, but maybe future-me will fix
 
 ## Install 
 
-Just install the addon and grap the yggdrasil-ip form the log, local peering should work
+Just install the addon and grap the yggdrasil-ip form the log, local peering should work fine
